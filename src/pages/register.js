@@ -2,7 +2,7 @@ import { useState } from "react";
 //import D from './d'
 import './register.css';
 import { useDispatch } from "react-redux";
-import { login,register } from "../rSlice/rslice";
+import { login, register } from "../rSlice/rslice";
 function Register() {
     const [ema, setema] = useState("");
     const [pass, setpass] = useState("");
